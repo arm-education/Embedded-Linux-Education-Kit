@@ -20,6 +20,18 @@ Our Embedded Linux Education Kit covers the fundamental knowledge of the Linux a
 * Lab manual with solutions for faculty. Labs are based on low-cost yet powerful Arm-based single board computers donated by partners (subject to availability)
 * **Prerequisites:** Basics of operating systems, basics of software programming in C
 
+## Tools Used
+
+The lab exercises in this course can be run on Ubuntu Desktop 14.04 LTS with at least 100 GB free space and have been developed and tested using the hardware and software listed below. If you use alternatives, you may need to make adjustments to ensure the labs run successfully.
+
+Hardware:
+- Raspberry Pi 3
+- 8 GB Micro SD Card
+
+Software:
+- Arm Development Studio
+- USB-to-Serial debug module for Raspberry Pi 3 or USB to TTL adapter
+
 ## Course Aim
 To produce students who can develop an embedded Linux system on low-cost yet powerful Arm based platforms, including customer peripheral development for various applications using standard software tools.
 
