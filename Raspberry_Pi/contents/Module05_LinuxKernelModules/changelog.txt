@@ -1,0 +1,37 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module05_LinuxKernelModules/Lecture05_LinuxKernelModules.pptx
+
+Changes
+-------
+
+all slides - updated Arm copyright date to 2025 in slide footers
+
+all images - added attributions and accessibility text for screen readers
+
+slide 2 - boldfaced new concepts in objectives
+
+slide 5 - change graphical example from car engine to environmental sensor. Added info about research paper.
+
+slide 5 - added acronym for COTS (commercial off-the-shelf)
+
+slide 6 - added label for "User Space"
+
+slide 8 - add examples of parallel bus - missing previously
+
+slide 9 - add graphic to illustrate analogy for polling and interrputs - this image from my "Operating Systems Foundations" Arm Education textbook
+
+
+syntax highlighting for C code - slides 10, 11, ...
+
+many slides -
+increasing size of font for kernel module example code
+adding syntax highlighting
+
+slide 24 and others - fix quotation marks for strings
+
+slide 36 - tidy up text in yellow balloon
+
+slide 38 - added comment before filename (so code is compilable)
+
+slides 52 & 53 - tidied up commentary in yellow balloons
+

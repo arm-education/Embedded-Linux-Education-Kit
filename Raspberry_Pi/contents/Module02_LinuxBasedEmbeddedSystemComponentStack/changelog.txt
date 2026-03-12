@@ -1,0 +1,26 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module02_LinuxBasedEmbeddedSystemComponentStack/Lecture02_LinuxBasedEmbeddedSystemComponentStack.pptx
+
+Changes
+-------
+
+all slides - updated Arm copyright to 2025
+
+images - added accessible text for screen readers
+
+slide 9 - added example of 32-bit address bus.
+
+slide 12 0 in off-slide notes. Added note that reset vector 
+is generally stored at address 0x4 on Cortex-M
+
+slide 13. Expanded abbrevation "sw" into "software" x2
+
+slide 15. "each 32 bytes long" -> "each 32 bits long" - factual correction.
+
+slide 22. Clarification on slide, also in notes. "User space and Kernel space occupy different regions of the memory address space"
+
+slide 23. Mention kernel panic
+
+slide 27 - added examples of typical systems programs
+
+slide 32 - resized and added folder icons.

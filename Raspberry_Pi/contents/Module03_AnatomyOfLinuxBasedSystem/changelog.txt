@@ -1,0 +1,25 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module03_AnatomyOfLinuxBasedSystem/Lecture03_AnatomyOfLinuxBasedSystem.pptx
+
+Changes
+-------
+
+all slides: updated Arm copyright to 2025
+
+all images: added accessible text for screenreaders
+
+slide 7. Fixed spelling mistake. "Architecure-dependant" -> "Architecture-dependent"
+
+slide 15. font tidy up. Minor rewording for clarity
+
+slide 23. Fixed typo "excepts" -> "except"
+
+slide 23: colour syntax highlighting for inode struct
+
+slides 23-25: reformatted "i-node" to "inode" (more conventional) and explained "i" stands for "index"
+
+slide 36: rewording for clarity. "which has sub-nodes to describe "
+
+slides 42/43: added Das U-Boot logo (open source)
+
+slide 42: made clear that the U-Boot "halves" are known as "stages"

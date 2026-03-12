@@ -1,0 +1,43 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module06_CommunicationBetweenKernelAndUserSpace/Lecture06_CommunicationBetweenKernelAndUserSpace.pptx
+
+Changes
+-------
+
+all slides - updated Arm copyright date to 2024
+
+slide 2 - reword goals
+
+slide 5 - minor rewording
+
+slide 7 - added graphic illustrating LED on breakout board
+
+slide 8 - reformat
+
+slide 15 - fixed minor typo (The)
+
+
+slides 21-24, and others: added syntax highlighting for C code
+
+slide 25 - added more detail about copy_to_user - in slide and hidden notes
+
+slide 31 - replaced `inl` with `readl` for Arm64 Linux. Added `readq` for 64-bit reads.
+
+slide 32 - replaced `outl` with `writel` for Arm64 Linux. Added `writeq` for 64-bit writes.
+
+slide 33 - minor rewording
+
+slide 38 - minor rewording
+
+slide 39 - fixed typo - "hanlder" -> "handler"
+
+slide 43 - expand hw into "hardware"
+
+slides 45&46 - tidied up source code fragments
+
+slides 49 onwards - tidied up source code
+
+
+new slide 52 - Add a final summary slide at end
+
+

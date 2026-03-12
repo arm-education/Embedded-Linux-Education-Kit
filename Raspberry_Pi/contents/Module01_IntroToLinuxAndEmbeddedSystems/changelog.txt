@@ -1,0 +1,28 @@
+Original at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module01_IntroToLinuxAndEmbeddedSystems/Lecture01_IntroToLinuxAndEmbeddedSystems.pptx
+
+
+all slides - updated Arm copyright date to 2025
+
+all pictures - added accessible text descriptions
+
+slide 8 - updated Module 7 contents - now simple temp sensor with
+AI integration. updated bullet point text and off-slide notes.
+
+slide 10 - updated images (due to rights concerns for original images). Also boldfaced concepts, added ECU acronym.
+
+slide 13 - updated images (due to rights conerns for original images). Also updated example OS solutions mentioned.
+
+slide 15 - updated list of hardware architectures.
+
+slide 16 - updated images (due to rights concerns for original images). Updated schedule table for long-term release kernels.
+
+slide 17 - updated image (rights concerns)
+
+slide 18 - updated image with a personal photo (due to rights concerns with original image)
+
+slide 19 - replaced third example (could not source rights-free image) with a challenge to the learner. - can you spot your own Linux embedded systems?
+
+
+
+

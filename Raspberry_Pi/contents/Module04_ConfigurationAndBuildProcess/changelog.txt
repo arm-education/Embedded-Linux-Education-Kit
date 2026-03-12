@@ -1,0 +1,31 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module04_ConfigurationAndBuildProcess/Lecture04_ConfigurationAndBuildProcess.pptx
+
+Changes
+-------
+
+All slides - update Arm copyright date to 2025
+
+Slide 5 - MicroSD layout -> MicroSD card image layout
+
+Slide 5 - added memory card image
+
+Slide 5 - tidy up capitalization
+
+Slide 5 - replace Ext with "Linux-native"
+
+Slide 7 - add icons for source and binary files in schematic diagram
+
+Slide 19 - updated list of architectures that Yocto supports
+
+Slide 22 - corrected typo
+
+Slides 23-25 - replace all references to Pi 2/3 with Pi 5
+
+slide 26: expand LSB acronym to Linux Standard Base
+
+slide 27 - fix typos
+
+slide 29: slide text and notes: replaced typo "pseudo" with correct "sudo:
+
+

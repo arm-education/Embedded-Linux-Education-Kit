@@ -11,8 +11,8 @@
 #include <linux/gpio.h>
 #include <linux/interrupt.h>
 
-#define	GPIO_OUT	20			// GPIO_105
-#define	GPIO_IN		21			// GPIO_148
+#define	GPIO_OUT	419			// GPIO 20
+#define	GPIO_IN		420			// GPIO 21
 
 static dev_t gpio_dev;      //defines structure to hold major and minor number of device//
 
@@ -75,18 +75,20 @@ ssize_t gpio_read(struct file *filp, char __user *buf, size_t count, loff_t *f_p
 ssize_t gpio_write(struct file *filp, const char *buffer, size_t length, loff_t * offset)   //writes value to device//
 {
     int	n = 0;
+    char kbuf[1];
 
     while( length )
     {
-	if( *buffer == '0' )
+        copy_from_user( kbuf, buffer, 1 );
+	if( *kbuf == '0' )
 	{
 	    gpio_set_value( GPIO_OUT, 0 );
-	    printk( KERN_INFO "gpio_dev: %s wrote %c to GPIO_OUT\n", __func__, *buffer );
+	    printk( KERN_INFO "gpio_dev: %s wrote %c to GPIO_OUT\n", __func__, *kbuf );
 	}
-	if( *buffer == '1' )
+	if( *kbuf == '1' )
 	{
 	    gpio_set_value( GPIO_OUT, 1 );
-	    printk( KERN_INFO "gpio_dev: %s wrote %c to GPIO_OUT\n", __func__, *buffer );
+	    printk( KERN_INFO "gpio_dev: %s wrote %c to GPIO_OUT\n", __func__, *kbuf );
 	}
 	buffer++;
 	length--;
@@ -182,8 +184,8 @@ MODULE_AUTHOR("Your Name");     //states authors name//
 MODULE_LICENSE("GPL");      //shows resource is open source//
 
 
-//Useful links:
+/*Useful links:
     https://www.tldp.org/LDP/lkmpg/2.6/html/lkmpg.html#AEN40
     https://www.kernel.org/doc/htmldocs/kernel-api/chrdev.html    
     http://www.zilogic.com/releases/bsp-1.5.1/doc/zdev-user-manual/_gpio.html
-//
+*/
