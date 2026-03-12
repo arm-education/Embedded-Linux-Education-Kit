@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     char *app_name = argv[0];
     char *dev_name = "/dev/gpio";
     int fd = -1;
-    char c;insmo
+    char c;
 
     if ((fd = open(dev_name, O_RDWR)) < 0) 
     {

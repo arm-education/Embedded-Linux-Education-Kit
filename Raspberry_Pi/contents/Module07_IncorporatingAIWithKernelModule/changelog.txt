@@ -1,0 +1,31 @@
+Original slidedeck at:
+https://github.com/arm-university/Embedded-Linux-Education-Kit/blob/main/Raspberry_Pi/contents/Module07_BuildingARangingSensorKernelModule/Lecture07_BuildingARangingSensorKernelModule.pptx
+
+Note content has changed considerably, for this slidedeck, to reflect new lab
+with AI sensor module
+
+Changes
+-------
+
+all slides - update Arm copyright year to 2025
+
+slides 9+10: change "shall" to "may"
+
+Complete change of part 2 - was Range Sensor, now LLaMa AI
+model and its integration with sensor module
+
+slide 9 - fixing up quote marks (should be " " )
+
+C source code for kernel module - changes from hcrs04 to temp
+(for on-board temperature sensor)
+
+slide 24 - remove rising and falling edge variables - not needed
+
+slide 26 - removed GPIO requests - not needed
+
+remove old slide 28 - about GPIO - not needed
+
+slide 28 - remove GPIO
+slide 29 - remove GPIO
+
+

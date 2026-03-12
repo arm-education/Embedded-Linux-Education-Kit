@@ -1,6 +1,6 @@
 DESCRIPTION = "hello driver"
-LICENSE = "GPLv2+"
-LIC_FILES_CHKSUM = "file://${BPN}.c;endline=19;md5=4866f9824d27c1cd5324fd5e84caeb6e"
+LICENSE = "GPL-2.0-or-later"
+LIC_FILES_CHKSUM = "file://${BPN}.c;endline=44;md5=2c7c6bf3402cde2ac4fbeba9f6497456"
 
 inherit module
 

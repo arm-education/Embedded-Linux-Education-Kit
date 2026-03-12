@@ -9,9 +9,16 @@ static dev_t hello_dev;
 struct cdev hello_cdev;
 static char buffer[64];
 
+ssize_t hello_read(struct file *filp, char __user *buf, size_t count, loff_t *f_pos)
+{
+    printk(KERN_INFO "Dummy read (count=%d, offset=%d)\n", (int)count, (int)*f_pos );
+
+    return 1;
+}
+
 struct file_operations hello_fops = {
     .owner = THIS_MODULE,
- 
+    .read = hello_read,
 };
 
 static int __init hello_module_init(void)
